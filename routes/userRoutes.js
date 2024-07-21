@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/user'); // Asegúrate de que la ruta al modelo sea correcta
+const User = require('../models/user'); 
 
 // Ruta para eliminar un usuario por su ID
 router.delete('/:id', async (req, res) => {
